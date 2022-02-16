@@ -13,7 +13,7 @@ do
   do
     mkdir $D
     cd $D
-    n=$((RANDOM%3+1))
+    n=$((RANDOM%6+1))
     for ((i=1; i<=$n; i++))
     do
       echo "$i on $M/$D/$1" > commit.md
